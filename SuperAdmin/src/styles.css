@@ -1,0 +1,101 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.navbar {
+  background-color: #f52525;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+.icons {
+  font-size: 25px;
+  padding: 25px 10px;
+}
+#BackIcon {
+  text-align: left;
+}
+#RightIcons {
+  order: -1;
+  text-align: right;
+  padding-left: 20px;
+}
+.formItems {
+  margin-top: 20px;
+  position: relative;
+  top: 50%;
+  left: 35%;
+}
+
+#formElements {
+  margin: 10px 10px;
+}
+.formItems label {
+  display: table-cell;
+  text-align: right;
+}
+.formItems input {
+  display: table-cell;
+  border-radius: 5px;
+  border: solid 1px #b9b3b3;
+  text-align: center;
+}
+.row {
+  display: table-row;
+}
+.AccountDetails {
+  margin-top: 20px;
+}
+.checkBox {
+  margin-top: 20px;
+  position: relative;
+}
+.UploadButtons button {
+  background-color: #f52525;
+  color: white;
+  margin: 20px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+}
+.AccountDetails button {
+  background-color: #f52525;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.accDetails {
+  margin-top: 10px;
+  position: relative;
+  top: 50%;
+  left: 36.5%;
+}
+.accDetails label {
+  display: table-cell;
+  text-align: right;
+}
+.accDetails input {
+  display: table-cell;
+  border-radius: 5px;
+  border: solid 1px #b9b3b3;
+  text-align: center;
+}
+#Check {
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.addBtn button {
+  background-color: #f52525;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+}
+.addBtn {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
